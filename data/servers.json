@@ -1515,6 +1515,24 @@
     }
   },
   {
+    "name": "eCFR MCP",
+    "url": "https://github.com/lrehmann/ecfr-mcp",
+    "description": "Search and read U.S. federal regulations with legal citations, source dates, stale-data flags, and paginated text; an independent eCFR mirror, not the official legal edition.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "eCFR.io",
+    "tags": [
+      "legal",
+      "regulations",
+      "citations",
+      "streamable-http"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://ecfr.io/mcp"
+    }
+  },
+  {
     "name": "1Password MCP Server",
     "url": "https://github.com/CakeRepository/1Password-MCP",
     "description": "Community-maintained integration for accessing 1Password vault items in agent workflows.",
